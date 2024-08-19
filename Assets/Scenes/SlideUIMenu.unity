@@ -358,7 +358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 400bf947a01684c4193e3b37fdfd7c91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridLayoutAdjuster: {fileID: 911467954}
+  gridLayoutAdjuster: {fileID: 0}
   targetGridLayoutGroup: {fileID: 41338623}
 --- !u!1 &77324379
 GameObject:
@@ -2234,7 +2234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 400bf947a01684c4193e3b37fdfd7c91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridLayoutAdjuster: {fileID: 911467954}
+  gridLayoutAdjuster: {fileID: 0}
   targetGridLayoutGroup: {fileID: 286722925}
 --- !u!1 &314863920
 GameObject:
@@ -3333,7 +3333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 400bf947a01684c4193e3b37fdfd7c91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridLayoutAdjuster: {fileID: 911467954}
+  gridLayoutAdjuster: {fileID: 0}
   targetGridLayoutGroup: {fileID: 730262253}
 --- !u!1001 &763157541
 PrefabInstance:
@@ -3962,66 +3962,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815546088}
   m_CullTransparentMesh: 1
---- !u!1 &911467952
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 911467953}
-  - component: {fileID: 911467954}
-  m_Layer: 0
-  m_Name: GridLayoutManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &911467953
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 911467952}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 988304935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &911467954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 911467952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4affa782f9e469c40923eb06ed937e13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gridLayoutGroups:
-  - {fileID: 286722925}
-  - {fileID: 1846796451}
-  - {fileID: 41338623}
-  - {fileID: 730262253}
-  - {fileID: 1834112301}
-  - {fileID: 1144330137}
-  - {fileID: 1717166102}
-  - {fileID: 1158705230}
-  - {fileID: 10689665}
-  - {fileID: 223753814}
-  - {fileID: 1551246574}
-  - {fileID: 1128478166}
-  - {fileID: 255526353}
-  - {fileID: 1228081234}
-  - {fileID: 317832055}
 --- !u!1001 &923604374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5444,8 +5384,7 @@ Transform:
   m_LocalPosition: {x: 494.27417, y: 418.35007, z: 0.1404419}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 911467953}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1048265244 stripped
@@ -6152,7 +6091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 400bf947a01684c4193e3b37fdfd7c91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridLayoutAdjuster: {fileID: 911467954}
+  gridLayoutAdjuster: {fileID: 0}
   targetGridLayoutGroup: {fileID: 1144330137}
 --- !u!1 &1158705226
 GameObject:
@@ -6267,7 +6206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 400bf947a01684c4193e3b37fdfd7c91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridLayoutAdjuster: {fileID: 911467954}
+  gridLayoutAdjuster: {fileID: 0}
   targetGridLayoutGroup: {fileID: 1158705230}
 --- !u!1 &1194253789
 GameObject:
@@ -6305,7 +6244,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.00024414062, y: 0}
+  m_AnchoredPosition: {x: 0.00024414062, y: -0.000007029121}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1194253792
@@ -6343,10 +6282,10 @@ MonoBehaviour:
   m_Spacing: 20
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 1
+  m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
 --- !u!1 &1228081230
 GameObject:
@@ -8077,7 +8016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 400bf947a01684c4193e3b37fdfd7c91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridLayoutAdjuster: {fileID: 911467954}
+  gridLayoutAdjuster: {fileID: 0}
   targetGridLayoutGroup: {fileID: 1717166102}
 --- !u!1001 &1720460393
 PrefabInstance:
@@ -8400,7 +8339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 400bf947a01684c4193e3b37fdfd7c91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridLayoutAdjuster: {fileID: 911467954}
+  gridLayoutAdjuster: {fileID: 0}
   targetGridLayoutGroup: {fileID: 1834112301}
 --- !u!1 &1839147511
 GameObject:
@@ -8619,7 +8558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 400bf947a01684c4193e3b37fdfd7c91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridLayoutAdjuster: {fileID: 911467954}
+  gridLayoutAdjuster: {fileID: 0}
   targetGridLayoutGroup: {fileID: 1846796451}
 --- !u!1 &1855539272
 GameObject:

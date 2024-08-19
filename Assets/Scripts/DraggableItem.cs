@@ -35,5 +35,6 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         // Trả lại vị trí cũ và làm cho image có thể nhận raycast
         transform.SetParent(parentAfterDrag);
         image.raycastTarget = true;
+        image.transform.localScale = new Vector2 (1f,1f);
     }
 }
