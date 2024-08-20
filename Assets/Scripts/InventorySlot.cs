@@ -16,6 +16,9 @@ public class InventorySlot : MonoBehaviour, IDropHandler
             if (draggableItem != null)
             {
                 draggableItem.parentAfterDrag = transform;
+
+                // Hiển thị lại Item
+                draggableItem.parentAfterDrag.gameObject.SetActive(true);
             }
         }
     }
